@@ -4,7 +4,6 @@ xp =  1715
 nome = "Felipao"
 xp = 1715
 
-# Classificação dos níveis sem deixar buracos entre os números
 if xp <= 1000:
     nivel = "Ferro"
 elif 1001 <= xp <= 2000:
@@ -22,5 +21,4 @@ elif 9001 <= xp <= 10000:
 else:
     nivel = "Radiante"
 
-# Um único print no final resolve tudo sem repetir código!
 print(f"O Herói de nome {nome} está no nível de {nivel}")
